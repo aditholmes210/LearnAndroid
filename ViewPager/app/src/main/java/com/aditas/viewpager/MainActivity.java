@@ -9,6 +9,12 @@ import android.widget.ListView;
 
 import com.google.android.material.tabs.TabLayout;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -79,5 +85,57 @@ public class MainActivity extends AppCompatActivity {
         car.add(new CarSpec("Fitur", Fitur));
         car.add(new CarSpec("Total", Total));
 
+    }
+
+    private void deserializeJSON(){
+        //JSON from file
+        String json = loadJSONFromRaw();
+        try {
+            //buat JSONArray dari file json
+            JSONArray jsonData = new JSONArray(json);
+
+            //ambil smua JSONObject dalam jsonData(jsinArray)
+            for(int index = 0; index < jsonData.length(); index++){
+                JSONObject carSpecJO = jsonData.getJSONObject(index); //menu makanan json object
+                String jenis = carSpecJO.getString("jenis");    //ambil jenis dari json
+                JSONArray data = carSpecJO.getJSONArray("data"); //ambil data dari json
+
+                ArrayList<CarSpec.Carf> dataList = new ArrayList<>();   //siapkan arraylist utk data mobil
+
+                //pecah data Carf dari json & jadikan sebuah java object carfJO, kmudian masukkan ke arraylist diatas
+                for(int i = 0; i < data.length(); i++){
+                    JSONObject carfJO = data.getJSONObject(i);
+                    String nama = carfJO.getString("nama");
+                    String harga = carfJO.getString("harga");
+                    String desc = carfJO.getString("desc");
+                    String gambar = carfJO.getString("gambar");
+
+                    CarSpec.Carf carf = new CarSpec.Carf(nama, harga, desc, gambar);  // obj java dari carf
+                    dataList.add(carf); //memasukkan data obj java yg diparse dari json ke dlm array list dataList
+                }
+                CarSpec spec = new CarSpec(jenis, dataList);    //buat obj java carspec
+                car.add(spec);      //masukkan java menu makanan ke arraylist
+            }
+        } catch(JSONException e){
+            e.printStackTrace();
+        }
+    }
+
+    private String loadJSONFromRaw() {
+
+        String json = null;
+        try {
+            //InputStream is = getActivity().getAssets().open("yourfilename.json"); //from asset
+            InputStream is = getResources().openRawResource(R.raw.car);
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+            json = new String(buffer, "UTF-8");
+        } catch (IOException ex) {
+            ex.printStackTrace();
+            return null;
+        }
+        return json;
     }
 }
