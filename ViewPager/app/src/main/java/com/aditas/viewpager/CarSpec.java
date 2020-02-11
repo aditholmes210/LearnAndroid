@@ -22,9 +22,9 @@ public class CarSpec {
         private String nama;
         private String harga;
         private String desc;
-        private int image;
+        private String image;
 
-        public Carf(String nm, String hrg, String desc, int img){
+        public Carf(String nm, String hrg, String desc, String img){
             this.nama = nm;
             this.harga = hrg;
             this.desc = desc;
@@ -43,7 +43,7 @@ public class CarSpec {
             return desc;
         }
 
-        public Integer getImage() {
+        public String getImage() {
             return image;
         }
 
@@ -57,14 +57,14 @@ public class CarSpec {
             dest.writeString(this.nama);
             dest.writeString(this.harga);
             dest.writeString(this.desc);
-            dest.writeInt(this.image);
+            dest.writeString(this.image);
         }
 
         protected Carf(Parcel in) { //baca data parcel dari Carf
             this.nama = in.readString();
             this.harga = in.readString();
             this.desc = in.readString();
-            this.image = in.readInt();
+            this.image = in.readString();
         }
 
         public static final Parcelable.Creator<Carf> CREATOR = new Parcelable.Creator<Carf>() {

@@ -36,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
 
 //        generateTitle();
 //        generateData();
-        generateSpec();
+        //generateSpec();
+        deserializeJSON();
 
         page = findViewById(R.id.vp_page);
         //adapt = new Adapt(getSupportFragmentManager()); //buat obj adapter
@@ -64,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
 //    }
 
     private void generateSpec(){
-//        CarSpec spec = new CarSpec("Promo", "Sahara");
+/*       CarSpec spec = new CarSpec("Promo", "Sahara");
         ArrayList<CarSpec.Carf> Mesin = new ArrayList<>();
         Mesin.add(new CarSpec.Carf("Pentastar","3.604cc", getString(R.string.Pentastar), R.drawable.jeep_engine));
         Mesin.add(new CarSpec.Carf("V6","2.985cc",getString(R.string.Pentastar), R.drawable.jeep_wrangler));
@@ -84,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
         car.add(new CarSpec("Mesin", Mesin));
         car.add(new CarSpec("Fitur", Fitur));
         car.add(new CarSpec("Total", Total));
-
+*/
     }
 
     private void deserializeJSON(){
@@ -108,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
                     String nama = carfJO.getString("nama");
                     String harga = carfJO.getString("harga");
                     String desc = carfJO.getString("desc");
-                    String gambar = carfJO.getString("gambar");
+                    String gambar = carfJO.getString("image");
 
                     CarSpec.Carf carf = new CarSpec.Carf(nama, harga, desc, gambar);  // obj java dari carf
                     dataList.add(carf); //memasukkan data obj java yg diparse dari json ke dlm array list dataList

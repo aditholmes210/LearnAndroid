@@ -18,10 +18,11 @@ public class DescActivity extends AppCompatActivity {
         CarSpec.Carf crx = getIntent().getParcelableExtra("Deskripsi Mesin");
 
         String engine = crx.getDesc();
-        int jt = crx.getImage();
+        String jt = crx.getImage();
         big = findViewById(R.id.jeep_desc);
         big.setText(engine);
         jl = findViewById(R.id.iv_engine);
-        jl.setImageResource(jt);
+       // jl.setImageResource(jt);
+        jl.setImageResource(getResources().getIdentifier(jt,"drawable",getPackageName()));
     }
 }
