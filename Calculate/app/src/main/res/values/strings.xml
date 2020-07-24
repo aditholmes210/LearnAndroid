@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Calculate</string>
+    <string name="et_length">Panjang</string>
+    <string name="et_width">Lebar</string>
+    <string name="et_height">Tinggi</string>
+    <string name="btn_htg">Hitung</string>
+    <string name="tv_hsl">Hasil</string>
+    <string name="btn_call">Call Us</string>
+    <string name="btn_yt">Browser</string>
+    <string name="tv_splash">My Application</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_count">125sp</dimen>
+    <dimen name="default_count">250sp</dimen>
+    <dimen name="default_count_land">100sp</dimen>
+</resources>

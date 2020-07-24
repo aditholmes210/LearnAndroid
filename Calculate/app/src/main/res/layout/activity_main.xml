@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_nm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama :"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/et_isi"
+        android:layout_width="358dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="16dp"
+        android:hint="Nama"
+        android:lines="1"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.344"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nm" />
+
+    <Button
+        android:id="@+id/btn_sub"
+        android:layout_width="164dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="125dp"
+        android:background="@color/colorPrimary"
+        android:text="Next"
+        android:textAlignment="center"
+        android:textColor="@color/colorMenu"
+        app:layout_constraintTop_toBottomOf="@+id/et_isi" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

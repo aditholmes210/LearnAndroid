@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1035336099984",
+    "firebase_url": "https://learnfirebase-36147.firebaseio.com",
+    "project_id": "learnfirebase-36147",
+    "storage_bucket": "learnfirebase-36147.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035336099984:android:f29272fa48588ec20a9015",
+        "android_client_info": {
+          "package_name": "com.aditas.learnfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035336099984-391mpnf8lbttt0l1qd6bncfoeepi98kf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA98Os82NfIovZwLG18WiHGS_xsTMzLl-g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035336099984-391mpnf8lbttt0l1qd6bncfoeepi98kf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

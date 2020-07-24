@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "598176435130",
+    "firebase_url": "https://automotive-2ce6a.firebaseio.com",
+    "project_id": "automotive-2ce6a",
+    "storage_bucket": "automotive-2ce6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598176435130:android:4eb15277f4476286aaeb83",
+        "android_client_info": {
+          "package_name": "com.aditas.automotive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598176435130-d09h862islcrhdb1j0in6hfklj7vl16f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4p2vHXTJBwz2h1hYEUrYo6Ga7oqCEQpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "598176435130-d09h862islcrhdb1j0in6hfklj7vl16f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
