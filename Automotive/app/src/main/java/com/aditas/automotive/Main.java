@@ -26,7 +26,7 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
 
 public class Main extends AppCompatActivity {
-    private SignInButton signInBtn;
+    private SignInButton signBtn;
     private GoogleSignInClient mGoogle;
     private String TAG = "Main";
     private FirebaseAuth mAuth;
@@ -38,7 +38,7 @@ public class Main extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        signInBtn = findViewById(R.id.sign_in);
+        signBtn = findViewById(R.id.sign_in);
         mAuth = FirebaseAuth.getInstance();
         btnOut = findViewById(R.id.sign_out);
 
@@ -48,10 +48,11 @@ public class Main extends AppCompatActivity {
                 .build();
         mGoogle = GoogleSignIn.getClient(this, gso);
 
-        signInBtn.setOnClickListener(new View.OnClickListener() {
+        signBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 signIn();
+
             }
         });
 
@@ -120,6 +121,10 @@ public class Main extends AppCompatActivity {
             Uri personPhoto = account.getPhotoUrl();
 
             Toast.makeText(Main.this, personName + personEmail, Toast.LENGTH_SHORT).show();
+
+            Intent intHome = new Intent(Main.this, Home.class);
+            startActivity(intHome);
+            //Toast.makeText(Home.this, "Logged in Success", Toast.LENGTH_SHORT).show();
         }
     }
 }

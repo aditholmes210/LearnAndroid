@@ -3,4 +3,99 @@
     <string name="email">Email</string>
     <string name="pass">Password</string>
     <string name="out">Sign Out</string>
+    <string name="ket">Welcome to the No.1 automotive apps. Please insert the brand that you want to look at. We have information about all big automotive brand</string>
+
+    <string-array name="Jenis_Kendaraan">
+        <item>Mobil</item>
+        <item>Motor</item>
+    </string-array>
+
+    <string-array name="Nama_Merk_mbl">
+        <item>Alfa Romeo</item>
+        <item>Alpina</item>
+        <item>Aston Martin</item>
+        <item>Audi</item>
+        <item>Bentley</item>
+        <item>BMW</item>
+        <item>Bugatti</item>
+        <item>Cadillac</item>
+        <item>Caterham</item>
+        <item>Chevrolet</item>
+        <item>Chrysler</item>
+        <item>Citroen</item>
+        <item>Daihatsu</item>
+        <item>Datsun</item>
+        <item>Dodge</item>
+        <item>DFSK</item>
+        <item>Ferrari</item>
+        <item>Fiat</item>
+        <item>Ford</item>
+        <item>Geely</item>
+        <item>GMC</item>
+        <item>Holden</item>
+        <item>Honda</item>
+        <item>Hummer</item>
+        <item>Hyundai</item>
+        <item>Infiniti</item>
+        <item>Isuzu</item>
+        <item>Jaguar</item>
+        <item>Jeep</item>
+        <item>KIA</item>
+        <item>Koenigsegg</item>
+        <item>Lamborghini</item>
+        <item>Land Rover</item>
+        <item>Lexus</item>
+        <item>Lotus</item>
+        <item>Maserati</item>
+        <item>Maybach</item>
+        <item>Mazda</item>
+        <item>Mclaren</item>
+        <item>Mercedes Benz</item>
+        <item>MG</item>
+        <item>Mini</item>
+        <item>Mitsubishi</item>
+        <item>Morgan</item>
+        <item>Nissan</item>
+        <item>Oldsmobile</item>
+        <item>Pagani</item>
+        <item>Peugeot</item>
+        <item>Porsche</item>
+        <item>Proton</item>
+        <item>Renault</item>
+        <item>Rolls-Royce</item>
+        <item>Saleen</item>
+        <item>Shelby</item>
+        <item>Subaru</item>
+        <item>Suzuki</item>
+        <item>Tesla</item>
+        <item>Toyota</item>
+        <item>Vauxhall</item>
+        <item>VW</item>
+        <item>Volvo</item>
+        <item>Wuling</item>
+    </string-array>
+
+    <string-array name="Nama_Merk_mtr">
+        <item>Bajaj</item>
+        <item>Benelli</item>
+        <item>BMW Motorrad</item>
+        <item>Ducati</item>
+        <item>Harley Davidson</item>
+        <item>Honda</item>
+        <item>Husqvarna</item>
+        <item>Hyosung</item>
+        <item>Jialing</item>
+        <item>Kaisar</item>
+        <item>Kanzen</item>
+        <item>Kawasaki</item>
+        <item>Kymco</item>
+        <item>KTM</item>
+        <item>Minerva</item>
+        <item>MV Agusta</item>
+        <item>Piaggio</item>
+        <item>Suzuki</item>
+        <item>VIAR</item>
+        <item>TVS</item>
+        <item>Yamaha</item>
+    </string-array>
 </resources>
