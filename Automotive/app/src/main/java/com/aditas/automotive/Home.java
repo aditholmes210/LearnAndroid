@@ -20,13 +20,13 @@ public class Home extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         btnStr = findViewById(R.id.btn_st);
-//        btnStr.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                FirebaseAuth.getInstance().signOut();
-//                Intent intFil = new Intent(Home.this, Form.class);
-//                startActivity(intFil);
-//            }
-//        });
+        btnStr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FirebaseAuth.getInstance().signOut();
+                Intent intFil = new Intent(Home.this, Form.class);
+                startActivity(intFil);
+            }
+        });
     }
 }

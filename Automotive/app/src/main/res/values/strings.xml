@@ -4,6 +4,10 @@
     <string name="pass">Password</string>
     <string name="out">Sign Out</string>
     <string name="ket">Welcome to the No.1 automotive apps. Please insert the brand that you want to look at. We have information about all big automotive brand</string>
+    <string name="form">Form</string>
+    <string name="vhct">Vehicle type</string>
+    <string name="vhcb">Vehicle brand</string>
+    <string name="src">Search</string>
 
     <string-array name="Jenis_Kendaraan">
         <item>Mobil</item>
