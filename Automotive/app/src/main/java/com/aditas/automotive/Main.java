@@ -74,9 +74,11 @@ public class Main extends AppCompatActivity {
     @Override
     protected void onActivityResult (int requestCode, int resultCode, @Nullable Intent data){
         super.onActivityResult(requestCode, resultCode, data);
-        if(requestCode == RC_SIGN_IN){
-            Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
-            handleSignInResult(task);
+        if(resultCode != RESULT_CANCELED) {
+            if (requestCode == RC_SIGN_IN) {
+                Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
+                handleSignInResult(task);
+            }
         }
     }
 
@@ -88,7 +90,7 @@ public class Main extends AppCompatActivity {
         }
         catch (ApiException e){
             Toast.makeText(Main.this, "Sign in failed", Toast.LENGTH_SHORT).show();
-            FirebaseGoogleAuth(null);
+            //FirebaseGoogleAuth(null);
         }
     }
     private void FirebaseGoogleAuth(GoogleSignInAccount act){

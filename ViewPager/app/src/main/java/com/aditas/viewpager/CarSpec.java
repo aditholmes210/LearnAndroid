@@ -2,8 +2,7 @@ package com.aditas.viewpager;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-
-import java.util.ArrayList;
+ import java.util.ArrayList;
 
 public class CarSpec {
     private String name;

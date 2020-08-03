@@ -1,0 +1,80 @@
+[
+  {
+    "jenis": "Mesin",
+    "data": [
+      {
+        "nama": "Pentastar",
+        "harga": "3.604",
+        "desc": "Mesin V6 Pentastar 3.604cc yg digunakan mulai dari tahun 2012 merupakan penyempurnaan dari mesin 3.8L V6 yg sebelumnya telah digunakan pada Wrangler JK. Mesin Pentastar memiliki sudut kemiringan 60 derajat serta berfokus pada Noise, Vibration dan Harshness (NVH) reduction yang menjadikan mesin ini lebih halus dalam pengoprasiannya. Mesin Pentastar ini mampu menghasilkan tenaga maksimal 230hp pada 6000rpm dan torsi 285nm pada 4400rpm.",
+        "gambar": -700034,
+        "image": "jeep_wrangler"
+      },
+      {
+        "nama": "V6",
+        "harga": "2.985",
+        "desc": "Mesin V6 Pentastar 3.604cc yg digunakan mulai dari tahun 2012 merupakan penyempurnaan dari mesin 3.8L V6 yg sebelumnya telah digunakan pada Wrangler JK. Mesin Pentastar memiliki sudut kemiringan 60 derajat serta berfokus pada Noise, Vibration dan Harshness (NVH) reduction yang menjadikan mesin ini lebih halus dalam pengoprasiannya. Mesin Pentastar ini mampu menghasilkan tenaga maksimal 230hp pada 6000rpm dan torsi 285nm pada 4400rpm.",
+        "gambar": -700034,
+        "image": "jeep_wrangler"
+      },
+      {
+        "nama": "GME",
+        "harga": "1.995",
+        "desc": "Mesin V6 Pentastar 3.604cc yg digunakan mulai dari tahun 2012 merupakan penyempurnaan dari mesin 3.8L V6 yg sebelumnya telah digunakan pada Wrangler JK. Mesin Pentastar memiliki sudut kemiringan 60 derajat serta berfokus pada Noise, Vibration dan Harshness (NVH) reduction yang menjadikan mesin ini lebih halus dalam pengoprasiannya. Mesin Pentastar ini mampu menghasilkan tenaga maksimal 230hp pada 6000rpm dan torsi 285nm pada 4400rpm.",
+        "gambar": -700034,
+        "image": "jeep_wrangler"
+      }
+    ]
+  },
+  {
+    "jenis": "Fitur",
+    "data": [
+      {
+        "nama": "Keyless Entry",
+        "harga": "1.000",
+        "desc": "Mesin V6 Pentastar 3.604cc yg digunakan mulai dari tahun 2012 merupakan penyempurnaan dari mesin 3.8L V6 yg sebelumnya telah digunakan pada Wrangler JK. Mesin Pentastar memiliki sudut kemiringan 60 derajat serta berfokus pada Noise, Vibration dan Harshness (NVH) reduction yang menjadikan mesin ini lebih halus dalam pengoprasiannya. Mesin Pentastar ini mampu menghasilkan tenaga maksimal 230hp pada 6000rpm dan torsi 285nm pada 4400rpm.",
+        "gambar": -700074,
+        "image": "jeep_wrangler"
+      },
+      {
+        "nama": "Automatic Transmission",
+        "harga": "1.500",
+        "desc": "Mesin V6 Pentastar 3.604cc yg digunakan mulai dari tahun 2012 merupakan penyempurnaan dari mesin 3.8L V6 yg sebelumnya telah digunakan pada Wrangler JK. Mesin Pentastar memiliki sudut kemiringan 60 derajat serta berfokus pada Noise, Vibration dan Harshness (NVH) reduction yang menjadikan mesin ini lebih halus dalam pengoprasiannya. Mesin Pentastar ini mampu menghasilkan tenaga maksimal 230hp pada 6000rpm dan torsi 285nm pada 4400rpm.",
+        "gambar": -700074,
+        "image": "jeep_wrangler"
+      },
+      {
+        "nama": "Hill Start Assist",
+        "harga": "800",
+        "desc": "Mesin V6 Pentastar 3.604cc yg digunakan mulai dari tahun 2012 merupakan penyempurnaan dari mesin 3.8L V6 yg sebelumnya telah digunakan pada Wrangler JK. Mesin Pentastar memiliki sudut kemiringan 60 derajat serta berfokus pada Noise, Vibration dan Harshness (NVH) reduction yang menjadikan mesin ini lebih halus dalam pengoprasiannya. Mesin Pentastar ini mampu menghasilkan tenaga maksimal 230hp pada 6000rpm dan torsi 285nm pada 4400rpm.",
+        "gambar": -700074,
+        "image": "jeep_wrangler"
+      }
+    ]
+  },
+  {
+    "jenis": "Total",
+    "data": [
+      {
+        "nama": "Sport",
+        "harga": "1.199",
+        "desc": "Mesin V6 Pentastar 3.604cc yg digunakan mulai dari tahun 2012 merupakan penyempurnaan dari mesin 3.8L V6 yg sebelumnya telah digunakan pada Wrangler JK. Mesin Pentastar memiliki sudut kemiringan 60 derajat serta berfokus pada Noise, Vibration dan Harshness (NVH) reduction yang menjadikan mesin ini lebih halus dalam pengoprasiannya. Mesin Pentastar ini mampu menghasilkan tenaga maksimal 230hp pada 6000rpm dan torsi 285nm pada 4400rpm.",
+        "gambar": -700074,
+        "image": "jeep_wrangler"
+      },
+      {
+        "nama": "Sahara",
+        "harga": "1.399",
+        "desc": "Mesin V6 Pentastar 3.604cc yg digunakan mulai dari tahun 2012 merupakan penyempurnaan dari mesin 3.8L V6 yg sebelumnya telah digunakan pada Wrangler JK. Mesin Pentastar memiliki sudut kemiringan 60 derajat serta berfokus pada Noise, Vibration dan Harshness (NVH) reduction yang menjadikan mesin ini lebih halus dalam pengoprasiannya. Mesin Pentastar ini mampu menghasilkan tenaga maksimal 230hp pada 6000rpm dan torsi 285nm pada 4400rpm.",
+        "gambar": -700074,
+        "image": "jeep_wrangler"
+      },
+      {
+        "nama": "Rubicon",
+        "harga": "1.499",
+        "desc": "Mesin V6 Pentastar 3.604cc yg digunakan mulai dari tahun 2012 merupakan penyempurnaan dari mesin 3.8L V6 yg sebelumnya telah digunakan pada Wrangler JK. Mesin Pentastar memiliki sudut kemiringan 60 derajat serta berfokus pada Noise, Vibration dan Harshness (NVH) reduction yang menjadikan mesin ini lebih halus dalam pengoprasiannya. Mesin Pentastar ini mampu menghasilkan tenaga maksimal 230hp pada 6000rpm dan torsi 285nm pada 4400rpm.",
+        "gambar": -700074,
+        "image": "jeep_wrangler"
+      }
+    ]
+  }
+]
